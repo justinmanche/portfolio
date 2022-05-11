@@ -1,7 +1,10 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 const Resume = () => (
-  <h1>Resume</h1>
+  <Layout>
+    <h2>Resume</h2>
+  </Layout>
 )
 
 export default Resume

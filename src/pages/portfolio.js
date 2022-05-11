@@ -1,7 +1,10 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 const Portfolio = () => (
-  <h1>Portfolio</h1>
+  <Layout>
+    <h2>Portfolio</h2>
+  </Layout>
 )
 
 export default Portfolio

@@ -1,0 +1,14 @@
+@import '../css/typography.css';
+
+body {
+  font-family: Exo, sans-sans-serif;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}

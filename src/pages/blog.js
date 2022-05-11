@@ -1,7 +1,10 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 const Blog = () => (
-  <h1>Blog</h1>
+  <Layout>
+    <h2>Blog</h2>
+  </Layout>
 )
 
 export default Blog
