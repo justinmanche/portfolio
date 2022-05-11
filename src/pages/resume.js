@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 
 const Resume = () => (
   <Layout>
-    <h2>Resume</h2>
+    <h2>Résumé</h2>
   </Layout>
 )
 

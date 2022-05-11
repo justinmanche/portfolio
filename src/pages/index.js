@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 
 const links = [
   {
-    text: "Resume",
+    text: "Résumé",
     url: "/resume",
     color: "#E95800"
   },
