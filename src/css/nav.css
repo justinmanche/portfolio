@@ -1,0 +1,118 @@
+header {
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    position: fixed;
+    z-index: 5;
+    top: 96px;
+    left: 0;
+    right: 0
+}
+
+@media(min-width: 36em)and (max-width:61.99em) {
+    header {
+        top:48px
+    }
+}
+
+@media(max-width: 35.99em) {
+    header {
+        top:24px
+    }
+}
+
+header .header-content {
+    z-index: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 88px 0 96px
+}
+
+@media(min-width: 36em)and (max-width:61.99em) {
+    header .header-content {
+        padding:0 43px 0 48px
+    }
+}
+
+@media(max-width: 35.99em) {
+    header .header-content {
+        padding:0 19px 0 24px
+    }
+}
+
+header .header-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center
+}
+
+header .header-content ul li {
+    line-height: 0;
+    display: block
+}
+
+header .header-content .left-part,header .header-content .right-part {
+    pointer-events: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: inherit
+}
+
+header .header-content .left-part .logo {
+    margin-right: 24px
+}
+
+header .header-content .left-part .full-identity {
+    transform: translateY(48px);
+    position: relative
+}
+
+header .header-content .left-part .full-identity .fullname {
+    font-variation-settings: "wght" 500,"wdth" 100
+}
+
+@media(max-width: 47.99em) {
+    header .header-content .left-part .full-identity {
+        display:none!important
+    }
+}
+
+header .header-content .right-part .language-switch {
+    transform: translateY(48px)
+}
+
+header .header-content .right-part .language-switch a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-variation-settings: "wght" 500,"wdth" 100
+}
+
+header .header-content .right-part .theme-switch {
+    cursor: pointer;
+    transform: translateY(48px)
+}
+
+header .header-content .right-part ul li {
+    margin-left: 24px
+}
+
+header .header-content .right-part .hamburger-btn {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #606887;
+    font: inherit;
+    font-variation-settings: "wght" 800,"wdth" 125;
+    padding: 0
+}
+
+body.dark header {
+    mix-blend-mode: difference
+}
